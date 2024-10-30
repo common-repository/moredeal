@@ -1,0 +1,357 @@
+.moredeal-container .tab-content {
+    display:inline !important;
+}
+
+.moredeal-container .deckgrid[deckgrid]::before {
+    content: '4 .col-md-3';
+    font-size: 0;
+    visibility: hidden;
+}
+
+.moredeal-container .animation-fade {
+    opacity:0;
+}
+
+.moredeal-container .animation-faded {
+    opacity:1;
+}
+
+.moredeal-container .animation-faded {
+    -webkit-transition: opacity 1s linear .2s;
+    -moz-transition: opacity 1s linear .2s;
+    -o-transition: opacity 1s linear .2s;
+    transition: opacity 1s linear .2s;
+}
+
+.moredeal-container .thumbnail-meta {
+    min-height:100px;
+}
+
+.moredeal-container .thumbnail:hover {
+    background: #f5f5f5 !important;
+    opacity: 1 !important;
+}
+
+.moredeal-container .result_added{
+    opacity: 0.15 !important;
+    cursor: default !important;
+}
+
+.moredeal-container .search_panel, .moredeal-container .data_panel{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.moredeal-container .search_results, .moredeal-container .data_results{
+    max-height: 600px;
+    overflow-y:scroll;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.moredeal-container .search_results a {
+    cursor: pointer;
+}
+
+.moredeal-container a {
+    cursor: pointer;
+}
+
+.moredeal-container .added_data:hover{
+    background-color: #f5f5f5;
+}
+
+.moredeal-container .search_results_row{
+    cursor: pointer !important;
+    padding-bottom: 1px;
+}
+
+.moredeal-container .search_results_row:hover {
+    background: #f5f5f5;
+}
+
+.moredeal-wrap {
+    position:relative;
+}
+
+.moredeal-maincol {
+    margin-right: 260px;
+}
+.moredeal-rightcol {
+    position: absolute;
+    width: 250px;
+    right: 0;
+    top: 0px;
+    z-index: 99999;
+}
+
+@media (max-width:600px) {
+    .moredeal-leftcol {margin: 0 0 20px 0}
+    .moredeal-maincol {width: 100%; position:static}
+}
+
+.moredeal-box {
+    border:1px solid #ccc;
+    background-color:#fff;
+    padding:10px;
+    max-width:200px;
+    text-align: center;
+}
+.moredeal-box h2{ text-align: center; color: #30BFAB !important; margin-top: 10px}
+.moredeal-box ul li {
+    /*padding-left: 15px;*/
+}
+
+.moredeal-box-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.moredeal-box-image {
+    width: 100%;
+    height: auto;
+}
+
+.moredeal-box-icon {
+    color: white;
+    position: absolute;
+    top: 38%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.moredeal-box-icon span {
+    font-size: 50px;
+    text-shadow: 1px 1px 5px gray, 0 0 1em red;
+}
+
+.moredeal-box .dashicons:hover {
+    color: #eee;
+
+}
+
+.moredeal-box-icon {
+    text-decoration: none;
+}
+
+.moredeal-box-label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 60%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #d9534f;
+    position: relative;
+    top: -3px;
+}
+
+.moredeal_required{
+    color: #e32;
+}
+
+@media (max-width: 768px) {
+    .moredeal-maincol{ margin: 0}
+    .moredeal-rightcol{ position: static;    width: auto;}
+    .moredeal-box{ max-width: 1000px}
+}
+.moredeal-imgcenter{ display: block; margin: 0 auto; max-width: 100%}
+.button-moredeal-banner{
+    background: #8A2BE2;
+    color: #fff !important; text-shadow: 0 0 2px #e66600; display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: .25em;
+}
+.button-moredeal-banner:hover{ color: #fff !important; opacity: 0.9}
+
+.moredeal-checkboxgroup{
+    width: 100%;
+    overflow:auto;
+    padding: 10px 0 0 0;
+    margin: 0px;
+}
+.moredeal-checkboxgroup .moredeal-checkbox{
+    width:250px;
+    float:left;
+    padding: 3px;
+    margin: 0px;
+}
+
+.moredeal-container .ui-sortable-helper {
+    cursor: move;
+}
+
+.moredeal-prefill-log{
+    overflow: auto;
+    padding: 10px 0px;
+}
+
+.moredeal-container .features_wrap{
+    padding: 27px 0px;
+    border: 1px solid #e3e3e3;
+    margin: 20px 0px;
+    background: #f6f6f6;
+
+}
+
+.moredeal-container .features_wrap .col-md-12{
+    margin-bottom:8px
+}
+.moredeal-container .added_data:hover .features_wrap{
+    background-color:#fff
+}
+
+.moredeal-container .shortcode-input{
+    cursor:  pointer;
+}
+
+.moredeal-warning {
+    display: inline-block;
+    line-height: 19px;
+    padding: 11px 15px;
+    font-size: 14px;
+    text-align: left;
+    margin: 25px 20px 0 2px;
+    background-color: #fff;
+    border-left: 4px solid red;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+table.wp-list-table .column-img {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+table.wp-list-table .column-title {
+    width: 70%;
+}
+
+table.wp-list-table .column-last_update {
+    width: 15ch;
+}
+table.wp-list-table .column-module_id {
+    width: 15ch;
+}
+
+table.wp-list-table td.column-img img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle;
+}
+
+table.wp-list-table .column-price {
+    width: 13ch;
+}
+
+table.wp-list-table .column-stock_status {
+    text-align: left !important;
+    width: 12ch;
+}
+table.wp-list-table td.column-price del {
+    display: block;
+}
+table.wp-list-table mark.instock, table.wp-list-table mark.onbackorder, table.wp-list-table mark.outofstock {
+    font-weight: 700;
+    background: transparent none;
+    line-height: 1;
+}
+
+table.wp-list-table mark.instock, .moredeal-container mark.instock{
+    color: #7ad03a;
+}
+table.wp-list-table mark.outofstock, .moredeal-container mark.outofstock {
+    color: #a44;
+}
+
+table.wp-list-table .row-actions {
+    color: #999;
+}
+table.wp-list-table mark.inactive{
+    background: transparent none;
+    line-height: 1;
+    color: #a44;
+}
+
+#moredeal-products-table .tablenav .actions {
+    padding-right: 0;
+}
+
+.moredeal-container abbr {
+    border-bottom: 0 !important;
+}
+
+#content-moredeal .container-fluid {padding-left: 0px;}
+
+
+.moredeal-container .list-group .label {
+    float: right;
+}
+
+#moredeal-tabs {
+    padding: 0;
+    border-top: 0px;
+}
+#moredeal-tabs .ui-widget-header{
+    border: none;
+    border-bottom: 1px solid #c3c4c7;
+    background: none;
+}
+#moredeal-tabs .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: #dcdcde;
+    font-weight: 600;
+    color: #3c434a;
+}
+#moredeal-tabs .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: #fff;
+}
+.moredeal-label {
+    display: inline;
+    padding: .3em .6em .3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25em;
+    font-size: 85%;
+}
+
+.moredeal-label-success, .moredeal-label-active {
+    /*background-color: #00ba37;*/
+}
+
+.moredeal-label-error, .moredeal-label-inactive {
+    background-color: #d63638;
+}
+
+.moredeal-label-error, .moredeal-label-disable {
+    background-color: #d63638;
+}
+
+.moredeal-label-error, .moredeal-label-noactive {
+    background-color: #d63638;
+}
+
+.moredeal-label-pro {
+    font-size: 55%;
+    background-color: #dd9933;
+    text-align: center;
+    line-height: 22px;
+    position: relative;
+    top: -19px;
+}

@@ -1,0 +1,960 @@
+.submits:before {
+    background-image: url('https://getaawp.com/wp-content/plugins/aawp/assets/img/icon-amazon-black.svg');
+    background-position: 9px;
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.submits {
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block !important;
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 19px;
+    margin: 0;
+    padding: 7px 12px 6px 32px;
+    text-align: center;
+    text-decoration: none !important;
+    background: linear-gradient(180deg, #f7dfa5, #f0c14b) repeat scroll 0 0 transparent;
+    border-color: #9c7e31 #90742d #786025;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 40%);
+    color: #111;
+}
+
+.submits-base {
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block !important;
+    line-height: 19px;
+    margin: 0;
+    padding: 7px 14px 7px 14px;
+    text-align: center;
+    text-decoration: none !important;
+    background-color: #dd9933;
+    border-color: #dd9933;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.more {
+    margin-top: -26px;
+    border: 1px solid #eaeefb;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 44px;
+    color: #495e73;
+    cursor: pointer;
+}
+
+.more:hover {
+    box-shadow: 0 0 8px 0 rgb(232 237 250)
+}
+
+.moredeal-ico-info-circle::before {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    margin-left: .1rem;
+    content: "";
+    vertical-align: -.125em;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23777' viewBox='0 0 16 16'%3E%3Cpath d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/%3E%3Cpath d='m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;;
+    cursor: pointer;
+    color: #777;
+}
+
+.moredeal-tip:hover::after {
+    color: #0c0c0c;
+    background: #ececec;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    width: 230px;
+    font-style: normal;
+    content: attr(data-title);
+    padding: 6px 6px 6px 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.moredeal-product-title-tip:hover::after {
+    color: #0c0c0c;
+    background: #ececec;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    width: 320px;
+    content: attr(data-title);
+    padding: 6px 6px 6px 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.moredeal-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.moredeal-container .rating > span {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    color: #4285F4;
+}
+
+.moredeal-container .rating_small > span {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #4285F4;
+}
+
+.moredeal-container .rating_default > span {
+    display: inline-block;
+    position: relative;
+    font-size: 22px;
+    color: #4285F4;
+}
+
+span.rating_small {
+    white-space: nowrap
+}
+
+.moredeal-container .moredeal-stars-container {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-size: 20px;
+    word-wrap: normal !important;
+    overflow: hidden;
+}
+
+.moredeal-container .moredeal-stars-container:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: lightgray;
+}
+
+.moredeal-container .moredeal-stars-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: #fcc10a;
+    overflow: hidden;
+}
+
+.moredeal-stars-0:after {
+    width: 0%;
+}
+
+.moredeal-stars-10:after {
+    width: 10%;
+}
+
+.moredeal-stars-20:after {
+    width: 20%;
+}
+
+.moredeal-stars-30:after {
+    width: 30%;
+}
+
+.moredeal-stars-40:after {
+    width: 40%;
+}
+
+.moredeal-stars-50:after {
+    width: 50%;
+}
+
+.moredeal-stars-60:after {
+    width: 60%;
+}
+
+.moredeal-stars-70:after {
+    width: 70%;
+}
+
+.moredeal-stars-80:after {
+    width: 80%;
+}
+
+.moredeal-stars-90:after {
+    width: 90%;
+}
+
+.moredeal-stars-100:after {
+    width: 100%;
+}
+
+.moredeal-container .moredeal-stars-small {
+    font-size: 16px;
+}
+
+.moredeal-container .moredeal-stars-default {
+}
+
+.moredeal-container .moredeal-stars-big {
+    font-size: 30px;
+}
+
+.moredeal-item .moredeal-price-row .moredeal-price {
+    font-size: 32px;
+    line-height: 30px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.moredeal-container .moredeal-item .moredeal-price small {
+    font-size: 22px;
+}
+
+.moredeal-item, .moredeal-list, .moredeal-grid, .moredeal-feature {
+    margin-bottom: 25px
+}
+
+.moredeal-container .moredeal-price {
+    font-weight: bold;
+    white-space: nowrap
+}
+
+.moredeal-container .moredeal-text-additional {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.moredeal-container .products .v-align {
+    vertical-align: middle;
+}
+
+.moredeal-container .moredeal-gridbox {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.moredeal-container .moredeal-gridbox:hover {
+    box-shadow: 0 8px 16px -6px #eee;
+    border: 1px solid #ddd;
+}
+
+.moredeal-gridbox .producttitle, .moredeal-gridbox .producttitle a {
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #333;
+}
+
+.moredeal-gridbox .productprice {
+    color: black;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.moredeal-gridbox .productprice strike {
+    color: grey;
+    font-weight: normal;
+    font-size: 0.85em;
+}
+
+.moredeal-gridbox .productprice .text-success {
+    font-weight: normal;
+    font-size: 0.85em;
+}
+
+.moredeal-thumb {
+    text-align: center;
+}
+
+.moredeal-gridbox .moredeal-thumb {
+    text-align: center;
+    padding: 15px;
+}
+
+.moredeal-price-tracker-item .moredeal-thumb {
+    text-align: center;
+}
+
+.moredeal-gridbox .moredeal-thumb img, .moredeal-price-tracker-item .moredeal-thumb img {
+    border: 0 none;
+    box-shadow: none;
+    max-height: 170px;
+}
+
+.moredeal-item-title {
+    font-size: 24px;
+    margin: 0px 0px 5px 0px;
+}
+
+.moredeal-grid-wdgt .moredeal-thumb img {
+    max-height: 150px;
+}
+
+.moredeal-list-coupons .moredeal-thumb {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.moredeal-list-coupons .moredeal-thumb img {
+    max-height: 30px;
+}
+
+.moredeal-container .moredeal-promotion {
+    line-height: 18px;
+}
+
+.moredeal-container .moredeal-promotion {
+    border-radius: 4px;
+    top: 15px;
+    left: 0;
+    height: 24px;
+    position: absolute;
+    width: auto;
+    z-index: 10;
+}
+
+.moredeal-btns-row .moredeal-btn-cell {
+    padding-bottom: 5px;
+}
+
+.moredeal-container .moredeal-position-container {
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    top: 0px;
+    left: 20px;
+    z-index: 10;
+}
+
+.moredeal-container .moredeal-position-text {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    background: #dc3545;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.moredeal-container .moredeal-position-container2 {
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+}
+
+.moredeal-container .moredeal-position-text2 {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    background: #d9534f;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.moredeal-container .moredeal-price-badge {
+    display: inline-block;
+    min-width: 80px;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    float: right;
+    background-color: #777;
+}
+
+.moredeal-container .moredeal-discount {
+    background: none repeat scroll 0 0 #dc3545;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: lighter;
+    height: 100%;
+    padding: 3px 5px;
+}
+
+.moredeal-container .moredeal-padding-top {
+    padding-top: 22px;
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.moredeal-container .moredeal-padding-top15 {
+    padding-top: 15px;
+}
+
+.moredeal-container.moredeal-compare .row {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+    margin-bottom: 0
+}
+
+.moredeal-container .moredeal-listcontainer .row:before, .moredeal-container .moredeal-listcontainer .row:after {
+    display: none;
+}
+
+.moredeal-container .moredeal-listcontainer {
+    display: table;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.moredeal-container .row-products {
+    display: table-row;
+}
+
+.moredeal-container .row-products > div {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+    padding: 18px 10px
+}
+
+.moredeal-container .row-products:last-child > div {
+    border: none
+}
+
+.moredeal-container .row-products > div:first-child {
+    padding-left: 0;
+}
+
+.moredeal-container .row-products > div:last-child {
+    padding-right: 0;
+}
+
+.moredeal-container .row-products:hover {
+    background-color: #f9f9f9;
+}
+
+.moredeal-container .row-products span.no-bold {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.moredeal-list-no-prices .moredeal-desc-cell {
+    vertical-align: top !important;
+}
+
+.moredeal-container {
+    clear: both;
+}
+
+.moredeal-list .row-products {
+    clear: both;
+}
+
+.moredeal-list .row-products {
+    margin-bottom: 15px;
+    margin-top: 0
+}
+
+.moredeal-container .moredeal-image-cell img {
+    max-height: 100px;
+    max-width: 100%;
+}
+
+.moredeal-container .moredeal-image-cell {
+    text-align: center
+}
+
+.moredeal-image-container img {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    max-height: 350px;
+}
+
+.moredeal-container .moredeal-no-top-margin {
+    margin-top: 0
+}
+
+.moredeal-container .moredeal-no-bottom-margin {
+    margin-bottom: 0
+}
+
+.moredeal-container .moredeal-no-margin {
+    margin-top: 0
+}
+
+.moredeal-container .moredeal-mb5 {
+    margin-bottom: 5px
+}
+
+.moredeal-container .moredeal-mb10 {
+    margin-bottom: 10px
+}
+
+.moredeal-container .moredeal-mb15 {
+    margin-bottom: 15px
+}
+
+.moredeal-container .moredeal-mb20 {
+    margin-bottom: 20px
+}
+
+.moredeal-container .moredeal-mb25 {
+    margin-bottom: 25px
+}
+
+.moredeal-container .moredeal-mb30 {
+    margin-bottom: 30px
+}
+
+.moredeal-container .moredeal-mb35 {
+    margin-bottom: 35px
+}
+
+.moredeal-container .moredeal-lineh-20 {
+    line-height: 20px
+}
+
+.moredeal-container .moredeal-mr10 {
+    margin-right: 10px
+}
+
+.moredeal-container .moredeal-mr5 {
+    margin-right: 5px
+}
+
+.moredeal-container .moredeal-mt5 {
+    margin-top: 5px
+}
+
+.moredeal-container .moredeal-mt10 {
+    margin-top: 10px
+}
+
+.moredeal-container .moredeal-mt30 {
+    margin-top: 30px
+}
+
+.moredeal-container .moredeal-pl5 {
+    padding-left: 5px
+}
+
+.moredeal-container .btn.moredeal-btn-big {
+    padding: 13px 80px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.moredeal-container .title-case:first-letter {
+    text-transform: capitalize;
+}
+
+.moredeal-couponcode {
+    text-align: center;
+    background: #efffda;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    border: 2px dashed #5cb85c;
+    margin-bottom: 10px;
+    margin-right: 10px
+}
+
+.moredeal-bordered-box {
+    border: 2px solid #ededed;
+    padding: 25px
+}
+
+.moredeal-price-tracker-panel .col-md-5 {
+    text-align: right;
+}
+
+.moredeal-price-tracker-panel .panel-body {
+    padding-bottom: 0px;
+}
+
+.moredeal-price-tracker-item .moredeal-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.moredeal-list-coupons .btn {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+.moredeal-listlogo-title {
+    line-height: 18px;
+    font-size: 15px
+}
+
+.moredeal-listcontainer .moredeal-price, .moredeal-list-withlogos .moredeal-price {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.moredeal-container .moredeal-list-withlogos .btn {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 16px
+}
+
+.moredeal-price-row strike {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.moredeal-listcontainer .moredeal-list-logo-title a {
+    text-decoration: none;
+    box-shadow: none;
+    color: #111;
+}
+
+.moredeal-list-no-prices .moredeal-no-prices-desc {
+    font-size: 0.9em;
+    color: #656565;
+}
+
+.moredeal-reviews-count {
+    text-decoration: none;
+    box-shadow: none;
+    color: #111;
+}
+
+.moredeal-hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    transform: translateY(10px);
+}
+
+.moredeal-container .moredeal-gridbox:hover .moredeal-hidden {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.moredeal-container .moredeal-btn-grid .btn {
+    display: block;
+    margin-bottom: 10px
+}
+
+#moredeal_market .moredeal-image-container img {
+    max-height: 350px
+}
+
+.moredeal-review-block {
+    padding: 20px;
+    border: 1px solid #eee
+}
+
+.moredeal-line-hr {
+    clear: both;
+    border-top: 1px solid #eee;
+    height: 1px
+}
+
+.moredeal-image-cell .moredeal-merhant-logo {
+    width: 80px !important;
+}
+
+.moredeal-font60 {
+    font-size: 60%;
+}
+
+.moredeal-lineheight15 {
+    line-height: 15px;
+}
+
+.moredeal-price-tracker-item .price-alert-title {
+    color: #111;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.moredeal-text-bold {
+    font-weight: bold;
+}
+
+.moredeal-price-alert-wrap .price-alert-agree-label {
+    font-weight: normal;
+    font-size: 90%;
+}
+
+.moredeal-grid-wdgt .moredeal-product-discount {
+    line-height: 20px;
+}
+
+.moredeal-grid-wdgt .product-discount-value {
+    font-size: 20px;
+    margin-right: 1px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.moredeal-grid-wdgt .product-discount-symbol {
+    letter-spacing: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.moredeal-grid-wdgt .product-discount-value, .product-discount-symbol, .product-discount-off {
+    color: #d9534f;
+}
+
+.moredeal-grid-wdgt .product-discount-off {
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.moredeal-grid-wdgt .product-discount, .product-price {
+    float: left;
+    display: inline;
+}
+
+.moredeal-grid-wdgt .product-name, .product-meta, .product-price {
+    font-size: 14px;
+    color: #212121;
+    font-weight: normal;
+}
+
+.moredeal-grid-wdgt .product-price-old {
+    font-size: 14px;
+    line-height: 1em;
+    min-height: 1em;
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.moredeal-grid-wdgt .product-price-new {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moredeal-grid-wdgt .product-price-new {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moredeal-grid-wdgt-row .moredeal-wdgt-gridbox {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.moredeal-grid-wdgt .moredeal-wdgt-gridbox:hover a {
+    text-decoration: underline;
+}
+
+.moredeal-list-wdgt .moredeal-discount-off {
+    font-size: 18px;
+}
+
+.moredeal-grid-wdgt-row .moredeal-wdgt-gridbox:last-child {
+    border-bottom: none;
+}
+
+.widget .moredeal-grid-wdgt {
+    margin-bottom: 0px;
+}
+
+.moredeal-list-wdgt .product-discount-off {
+    color: #d9534f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.moredeal-grid-wdgt .moredeal-gridbox-border {
+    box-shadow: 0 8px 16px -6px #eee;
+    border: 1px solid #ddd;
+}
+
+.moredeal-list-wdgt .row-products:hover {
+    background-color: inherit;
+}
+
+.moredeal-price-comparison {
+    margin-bottom: 0px;
+}
+
+.moredeal-price-comparison td a {
+    display: block;
+}
+
+.moredeal-price-comparison .moredeal-buttons_col {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.moredeal-price-comparison .moredeal-buttons_col a {
+    color: #fff !important;
+}
+
+.moredeal-price-comparison .moredeal-price_col a {
+    text-decoration: none;
+    box-shadow: none;
+    color: #111;
+    font-weight: bold;
+}
+
+.moredeal-price-comparison .moredeal-merhant_col {
+    vertical-align: middle !important;
+}
+
+.moredeal-price-comparison .moredeal-merhant_col a {
+    text-decoration: none;
+    box-shadow: none;
+    color: #111;
+    vertical-align: middle !important;
+}
+
+.moredeal-price-comparison.table {
+    font-size: 13px;
+}
+
+.moredeal-container .stock-status {
+    font-size: 80%;
+    cursor: help;
+    font-weight: normal;
+}
+
+.moredeal-container .status-instock {
+    color: #7ad03a;
+}
+
+.moredeal-container .status-outofstock {
+    color: #777;
+}
+
+.moredeal-container .moredeal-disclaimer .moredeal-disclaimer-title {
+    padding: 5px;
+    cursor: default;
+}
+
+.moredeal-container .moredeal-disclaimer {
+    cursor: pointer;
+}
+
+.moredeal-container .moredeal-cashback {
+    color: #199402;
+}
+
+.moredeal-features-table {
+    word-wrap: break-word;
+}
+
+.moredeal-btn-row {
+    padding-right: 10px;
+}
+
+.moredeal-price-outofstock {
+    color: #777 !important;
+}
+
+@media (max-width: 768px) {
+    .moredeal-list-withlogos .moredeal-btn-cell {
+        text-align: center;
+    }
+
+    .moredeal-price-tracker-panel .col-md-5 {
+        text-align: left;
+    }
+
+    .moredeal-container .moredeal-list-withlogos .moredeal-image-cell img {
+        max-height: 60px;
+        max-width: 60px;
+        height: auto;
+    }
+
+    .moredeal-container .moredeal-listcontainer .row-products {
+        display: flex;
+    }
+
+    .moredeal-list-no-prices .row-products {
+        display: table-row !important;
+    }
+
+    .moredeal-container .moredeal-listcontainer .row-products > div {
+        padding: 5px 0 10px 0;
+    }
+
+    .moredeal-listcontainer .moredeal-price, .moredeal-list-withlogos .moredeal-price {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .moredeal-price-row strike {
+        font-size: 15px;
+    }
+
+    .moredeal-container .row-products .btn {
+        padding: 5px 2px;
+        font-size: 12px;
+        line-height: 1.3;
+        border-radius: 3px;
+    }
+
+    .moredeal-gridbox .producttitle, .moredeal-gridbox .producttitle a {
+        font-size: 14px;
+    }
+
+    .moredeal-gridbox .moredeal-price, .moredeal-gridbox .moredeal-price strike {
+        font-size: 16px;
+    }
+
+    .moredeal-gridbox .producttitle, .moredeal-gridbox .producttitle .moredeal-mb10 {
+        margin-bottom: 5px;
+    }
+}
+
+
+

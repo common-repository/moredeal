@@ -1,0 +1,236 @@
+@media screen and (max-width: 768px) {
+    .product__thumb img {
+        border: none;
+        box-shadow: none;
+        display: block;
+        height: auto;
+        margin: 0 auto 15px;
+        max-height: 200px;
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__thumb {
+        width: 160px;
+        float: left;
+        margin-bottom: 30px;
+
+    }
+
+    .product__thumb img {
+        border: none;
+        box-shadow: none;
+        display: block;
+        height: auto;
+        margin: 0 auto 15px;
+        max-height: 200px;
+        max-width: 100%;
+        width: auto;
+    }
+
+    .product__content {
+        margin-left: 160px;
+    }
+
+    .product__footer {
+        margin-left: 160px;
+    }
+}
+
+.product--horizontal {
+    zoom: 1;
+    background: #fff;
+    border: 1px solid #ececec;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+    padding: 20px;
+    white-space: normal;
+    position: relative;
+    color: #495e73;
+}
+
+.product--horizontal:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ribbon--sale {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    padding: 0 15px;
+    background: #27ae60;
+    border-bottom-left-radius: 2px;
+    color: #fff;
+}
+
+.ribbon--bestseller {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    padding: 0 15px;
+    background: #e47911;
+    border-bottom-right-radius: 2px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #448FD5;
+}
+
+.product__rating {
+    text-align: center;
+}
+
+.product__reviews {
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.product__content {
+    padding-left: 20px;
+}
+
+.product__content > .product__title {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+.product__description ul {
+    list-style-position: outside !important;
+    list-style-type: disc;
+    margin: 0 0 5px;
+    padding: 0 0 0 20px;
+}
+
+.product__footer {
+    padding-left: 20px;
+    text-align: right;
+}
+
+.product__pricing span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price--old {
+    color: #666;
+    font-size: 14px;
+    text-decoration: line-through
+}
+
+.price--saved {
+    background: #27ae60;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 11px;
+    margin-top: 11px;
+    padding: 4px 6px;
+}
+
+.price--current {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product__pricing a {
+    background-image: url('https://getaawp.com/wp-content/plugins/aawp/assets/img/icon-check-prime@2x.png');
+    background-size: 55px 16px;
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 55px;
+}
+
+.product__info {
+    position: absolute;
+    bottom: 10px;
+    color: #666;
+    font-size: 11px;
+    left: 15px;
+    max-width: 225px;
+
+    text-align: left;
+}
+
+.stars-container {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-size: 20px;
+    word-wrap: normal !important;
+    overflow: hidden;
+}
+
+.stars-container:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: lightgray;
+}
+
+.stars-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    color: #fcc10a;
+    overflow: hidden;
+}
+
+.moredeal-stars-0:after {
+    width: 0;
+}
+
+.moredeal-stars-10:after {
+    width: 10%;
+}
+
+.moredeal-stars-20:after {
+    width: 20%;
+}
+
+.moredeal-stars-30:after {
+    width: 30%;
+}
+
+.moredeal-stars-40:after {
+    width: 40%;
+}
+
+.moredeal-stars-50:after {
+    width: 50%;
+}
+
+.moredeal-stars-60:after {
+    width: 60%;
+}
+
+.moredeal-stars-70:after {
+    width: 70%;
+}
+
+.moredeal-stars-80:after {
+    width: 80%;
+}
+
+.moredeal-stars-90:after {
+    width: 80%;
+}
+
+.moredeal-stars-100:after {
+    width: 100%;
+}

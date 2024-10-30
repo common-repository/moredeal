@@ -1,0 +1,660 @@
+# module_index
+msgid "Active"
+msgstr "Active"
+
+msgid "Deprecated"
+msgstr "Deprecated"
+
+msgid "New"
+msgstr "New"
+
+msgid "Module Settings"
+msgstr "Module Settings"
+
+msgid "Product modules"
+msgstr "Product modules"
+
+# module_settings
+msgid "Add new feed module"
+msgstr "Add new feed module"
+
+msgid "%s Settings"
+msgstr "%s Settings"
+
+msgid "Documentation"
+msgstr "Documentation"
+
+msgid "WARNING:"
+msgstr "WARNING:"
+
+msgid "This module cannot be activated!"
+msgstr "This module cannot be activated!"
+
+msgid "Please fix the following error(s):"
+msgstr "Please fix the following error(s):"
+
+# product_index
+msgid "Scanning... Please wait..."
+msgstr "Scanning... Please wait..."
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Update Products"
+msgstr "Update Products"
+
+msgid "Last Update: %s"
+msgstr "Last Update: %s"
+
+msgid "Search products"
+msgstr "Search products"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Moredeal Settings"
+msgstr "Moredeal Settings"
+
+# AdminPlugin
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Setting"
+msgstr "Setting"
+
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+# GeneralConfig
+msgid "General settings"
+msgstr "General settings"
+
+msgid "Website language"
+msgstr "Website language"
+
+msgid "The frontend language."
+msgstr "The frontend language."
+
+msgid "Post Types"
+msgstr "Post Types"
+
+msgid "What post types do you want to use for Moredeal?"
+msgstr "What post types do you want to use for Moredeal?"
+
+msgid "Stock status"
+msgstr "Stock status"
+
+msgid "How to deal with stock status for product"
+msgstr "How to deal with stock status for product"
+
+msgid "Show stock status"
+msgstr "Show stock status"
+
+msgid "Hide stock status"
+msgstr "Hide stock status"
+
+msgid "Show OutOfStock status only"
+msgstr "Show OutOfStock status only"
+
+msgid "Show InStock status only"
+msgstr "Show InStock status only"
+
+msgid "Out of Stock products"
+msgstr "Out of Stock products"
+
+msgid "How to deal with Out of Stock products."
+msgstr "How to deal with Out of Stock products."
+
+msgid "Do nothing"
+msgstr "Do nothing"
+
+msgid "Hide price"
+msgstr "Hide price"
+
+msgid "Hide product"
+msgstr "Hide product"
+
+msgid "Frontend"
+msgstr "Frontend"
+
+msgid "Rel attribute for affiliate links"
+msgstr "Rel attribute for affiliate links"
+
+msgid "Qualify"
+msgstr "Qualify"
+
+msgid " your affiliate links to Google."
+msgstr " your affiliate links to Google."
+
+msgid "Button color"
+msgstr "Button color"
+
+msgid "Button color for default templates."
+msgstr "Button color for default templates."
+
+msgid "Price color"
+msgstr "Price color"
+
+msgid "Price color for default templates."
+msgstr "Price color for default templates."
+
+msgid "Button text"
+msgstr "Button text"
+
+msgid "It will be used instead of %s."
+msgstr "It will be used instead of %s."
+
+msgid "Buy Now"
+msgstr "Buy Now"
+
+msgid "You can use tags: %MERCHANT%, %DOMAIN%, %PRICE%, %STOCK_STATUS%."
+msgstr "You can use tags: %MERCHANT%, %DOMAIN%, %PRICE%, %STOCK_STATUS%."
+
+msgid "Amazon disclaimer"
+msgstr "Amazon disclaimer"
+
+msgid "Frontend texts"
+msgstr "Frontend texts"
+
+msgid "template i18n texts"
+msgstr "template i18n texts"
+
+msgid "Merchants"
+msgstr "Merchants"
+
+msgid "Merchant settings"
+msgstr "Merchant settings"
+
+msgid "Domain name"
+msgstr "Domain name"
+
+msgid "Logo URL"
+msgstr "Logo URL"
+
+msgid "Shop info"
+msgstr "Shop info"
+
+msgid "Translated string"
+msgstr "Translated string"
+
+msgid "Debugger"
+msgstr "Debugger"
+
+msgid "Seastar Api Host"
+msgstr "Seastar Api Host"
+
+msgid "Seastar Api Url To Use"
+msgstr "Seastar Api Url To Use"
+
+# ModuleController
+msgid "Modules"
+msgstr "Modules"
+
+# ProductController
+msgid "%s ago"
+msgstr "%s ago"
+
+# ProductTable
+msgid "Module"
+msgstr "Module"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Filter by module"
+msgstr "Filter by module"
+
+msgid "Filter by Stock"
+msgstr "Filter by Stock"
+
+msgid "Amazon Module"
+msgstr "Amazon Module"
+
+msgid "All"
+msgstr "All"
+
+msgid "no title"
+msgstr "no title"
+
+msgid "Post ID: %d"
+msgstr "Post ID: %d"
+
+msgid "View"
+msgstr "View"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Go to"
+msgstr "Go to"
+
+msgid "In stock"
+msgstr "In stock"
+
+msgid "Out of stock"
+msgstr "Out of stock"
+
+msgid "inactive"
+msgstr "inactive"
+
+# AffiliateParserModuleConfig
+msgid "Price update"
+msgstr "Price update"
+
+msgid "Time in seconds for updating prices, availability, etc. 0 - never update"
+msgstr "Time in seconds for updating prices, availability, etc. 0 - never update"
+
+msgid "Product update mode, You can chose update by Page view or Cron"
+msgstr "Product update mode, You can chose update by Page view or Cron"
+
+msgid "Update mode"
+msgstr "Update mode"
+
+msgid "Page view"
+msgstr "Page view"
+
+msgid "Cron"
+msgstr "Cron"
+
+msgid "Page view + Cron"
+msgstr "Page view + Cron"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "settings"
+msgstr "settings"
+
+# ParserModuleConfig
+msgid "Enable module"
+msgstr "Enable module"
+
+msgid "Could not activate."
+msgstr "Could not activate."
+
+msgid "Priority"
+msgstr "Priority"
+
+msgid "Priority sets order of modules in post. 0 - is the most highest priority."
+msgstr "Priority sets order of modules in post. 0 - is the most highest priority."
+
+msgid "Also it applied to price sorting."
+msgstr "Also it applied to price sorting."
+
+msgid "As an Amazon associate I earn from qualifying purchases."
+msgstr "As an Amazon associate I earn from qualifying purchases."
+
+msgid "Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product."
+msgstr "Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product."
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Stock"
+msgstr "Stock"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Default Associate Tag"
+msgstr "Default Associate Tag"
+
+msgid "An alphanumeric token that uniquely identifies you as an Associate. To obtain an Associate Tag, refer to "
+msgstr "An alphanumeric token that uniquely identifies you as an Associate. To obtain an Associate Tag, refer to "
+
+msgid "Becoming an Associate"
+msgstr "Becoming an Associate"
+
+msgid "Default locale"
+msgstr "Default locale"
+
+msgid "The branch/locale of Amazon. Each branch requires a separate registration in certain affiliate program."
+msgstr "The branch/locale of Amazon. Each branch requires a separate registration in certain affiliate program."
+
+msgid "The Local can not be empty."
+msgstr "The Local can not be empty."
+
+msgid "Associate Tag for %s locale"
+msgstr "Associate Tag for %s locale"
+
+msgid "Type here your tracking ID for this %s Associate Tag"
+msgstr "Type here your tracking ID for this %s Associate Tag"
+
+msgid "Adds products from Amazon."
+msgstr "Adds products from Amazon."
+
+msgid "Bids:"
+msgstr "Bids:"
+
+msgid "Item condition:"
+msgstr "Item condition:"
+
+msgid "Time left:"
+msgstr "Time left:"
+
+msgid "Ended:"
+msgstr "Ended:"
+
+msgid "EEK:"
+msgstr "EEK:"
+
+msgid "Customer reviews"
+msgstr "Customer reviews"
+
+msgid "User reviews"
+msgstr "User reviews"
+
+msgid "View all reviews"
+msgstr "View all reviews"
+
+msgid "Free shipping"
+msgstr "Free shipping"
+
+msgid "Specifications"
+msgstr "Specifications"
+
+msgid "Features"
+msgstr "Features"
+
+msgid "Last updated on %s"
+msgstr "Last updated on %s"
+
+msgid "as of %s"
+msgstr "as of %s"
+
+msgid "Plus %s Cash Back"
+msgstr "Plus %s Cash Back"
+
+msgid "Last Update"
+msgstr "Last Update"
+
+msgid "Go Pro"
+msgstr "Go Pro"
+
+msgid "block_item"
+msgstr "Product Card"
+
+msgid "block_offers_list"
+msgstr "Sorted Offers Order By Price"
+
+msgid "block_top_listing"
+msgstr "Top Listing"
+
+msgid "Moredeal Products"
+msgstr "Moredeal Products"
+
+msgid "Moredeal Module Settings"
+msgstr "Moredeal Module Settings"
+
+msgid "Moredeal Pro License"
+msgstr "Moredeal Pro License"
+
+msgid "License"
+msgstr "License"
+
+msgid "Activate license"
+msgstr "Activate license"
+
+msgid "License key"
+msgstr "License key"
+
+msgid "Please enter your license key. You can find your key on the %s."
+msgstr "Please enter your license key. You can find your key on the %s."
+
+msgid "The License key can not be empty."
+msgstr "The License key can not be empty."
+
+msgid "Invalid License Key, Please check your License Key."
+msgstr "Invalid License Key, Please check your License Key."
+
+msgid "License key is not accepted. Make sure that you use actual key."
+msgstr "License key is not accepted. Make sure that you use actual key."
+
+msgid "If you have correct key, but it is not accepted, this means that your server blocks external connections or there is any other reason that your server does not allow to connect to mdc.ai site."
+msgstr "If you have correct key, but it is not accepted, this means that your server blocks external connections or there is any other reason that your server does not allow to connect to mdc.ai site."
+
+msgid "Please, write about this to your hosting provider."
+msgstr "Please, write about this to your hosting provider."
+
+msgid "If you need our help, you can view %s."
+msgstr "If you need our help, you can view %s."
+
+msgid "License key is not accepted. Make sure that you use actual key. License expire time has unknown problem, Please, write about this to your hosting provider."
+msgstr "License key is not accepted. Make sure that you use actual key. License expire time has unknown problem, Please, write about this to your hosting provider."
+
+msgid "Deactivate license"
+msgstr "Deactivate license"
+
+msgid "You can transfer your license to a new domain."
+msgstr "You can transfer your license to a new domain."
+
+msgid "After deactivating license, you will cant not continue use Moredeal Pro on your current domain. But you can use Moredeal on your current domain."
+msgstr "After deactivating license, you will cant not continue use Moredeal Pro on your current domain. But you can use Moredeal on your current domain."
+
+msgid "title.search"
+msgstr "search"
+
+msgid "title.reset"
+msgstr "reset"
+
+msgid "title.tips"
+msgstr "Please enter product title keywords, ASIN, Product description keywords to search for products"
+
+msgid "title.exclude"
+msgstr "Please enter keywords"
+
+msgid "title.category"
+msgstr "Please select a product category to support fuzzy search"
+
+msgid "goods.title"
+msgstr "Please enter the product title"
+
+msgid "goods.name"
+msgstr "Please enter the seller name"
+
+msgid "goods.source"
+msgstr "Please enter source"
+
+msgid "goods.price"
+msgstr "Please enter price"
+
+msgid "goods.unit"
+msgstr "Please enter unit"
+
+msgid "goods.mark"
+msgstr "Please enter mark"
+
+msgid "table.product"
+msgstr "Product Information"
+
+msgid "table.globalScore"
+msgstr "Global Score"
+
+msgid "table.price"
+msgstr "Price"
+
+msgid "table.salesCount"
+msgstr "Sales Count"
+
+msgid "table.sales"
+msgstr "sales"
+
+msgid "table.currentBsr"
+msgstr "Current BSR"
+
+msgid "table.commentCount"
+msgstr "Review"
+
+msgid "table.star"
+msgstr "Rating"
+
+msgid "table.qa"
+msgstr "QA"
+
+msgid "table.volume"
+msgstr "Weight&Volume"
+
+msgid "table.firstDate"
+msgstr "Launch Time"
+
+msgid "table.changeTime"
+msgstr "Change Time"
+
+msgid "tip.product"
+msgstr "product information"
+
+msgid "tip.globalScore"
+msgstr "product global score"
+
+msgid "tip.price"
+msgstr "last price"
+
+msgid "tip.salesCount"
+msgstr "Refers to the sales volume of parent ASIN in the past 30 days."
+
+msgid "tip.sales"
+msgstr "Refers to the sales volume of parent ASIN in the past 30 days."
+
+msgid "tip.currentBsr"
+msgstr "Upward: The product belongs to the category and the ranking <br> down: The product belongs to the category and the ranking <br> The ASIN's BSR ranking during data capture <br> The daily update ranking of data is based on the BSR category ranking from high to low and from low to high."
+
+msgid "tip.commentCount"
+msgstr "Upside: The latest number of crawled comments<br> Downside: Amazon's latest crawled score is sorted by the number of comments from high to low, from low to high."
+
+msgid "tip.star"
+msgstr "Rating"
+
+msgid "tip.qa"
+msgstr "question and answer total number"
+
+msgid "tip.volume"
+msgstr "One line: the net weight of the product is in pounds, including ounces and other units are all converted to pounds <br> two lines: segment according to Amazon standard size. for small and medium-sized sellers, select small standard size to filter, which can help you find products with low FBA cost and high profit <br> three lines: volume of the product: length x width x height (inches) <br> 4 lines: the size of the product is sorted by weight from high to low and from low to high <br> The data actually comes from the Amazon listing page, and there may be distortion of the size and weight data uploaded by some sellers."
+
+msgid "tip.firstDate"
+msgstr "Storage time"
+
+msgid "tip.changeTime"
+msgstr "The last time the data was updated"
+
+msgid "selection.strategy"
+msgstr "Selection strategy"
+
+msgid "selection.strategy.tip"
+msgstr "You can choose a selection strategy to quickly filter out the products you want"
+
+msgid "selection.hotSearchKeyword"
+msgstr "Hot Search"
+
+msgid "selection.hotSearchKeyword.tip"
+msgstr "You can choose a hot search keyword to quickly filter out the products you want"
+
+msgid "selection.order"
+msgstr "Please select sort"
+
+msgid "other.hiddenCondition"
+msgstr "Hidden Condition"
+
+msgid "other.showCondition"
+msgstr "Show Condition"
+
+msgid "other.max"
+msgstr "Max"
+
+msgid "other.min"
+msgstr "Min"
+
+msgid "other.lineTip"
+msgstr "%s1 Active Products, %s2 Results Are Shown Here"
+
+msgid "other.variant"
+msgstr "Variant"
+
+msgid "other.brand"
+msgstr "Brand"
+
+msgid "other.parentAsin"
+msgstr "Parent Asin"
+
+msgid "other.categoryRank"
+msgstr "Category Rank"
+
+msgid "other.subcategoryRank"
+msgstr "Subcategory Rank"
+
+msgid "other.copySuccess"
+msgstr "Copy Success"
+
+msgid "user guide"
+msgstr "User Guide"
+
+msgid "unlimited"
+msgstr "Unlimited"
+
+msgid "Text of Amazon Disclaimer"
+msgstr "Text of Amazon Disclaimer"
+
+msgid "other.pasteOperation"
+msgstr "Ctrl V directly add goods to the goods pool"
+
+msgid "other.insertSuccessful"
+msgstr "Insert Successful"
+
+msgid "other.theProductAlreadyExists"
+msgstr "The Product Already Exists"
+
+msgid "other.insertFailed"
+msgstr "Insert Failed"
+
+msgid "other.systemError"
+msgstr "System Error"
+
+msgid "block_card_feature"
+msgstr "Product Card Feature"
+
+msgid "block_comparison"
+msgstr "Product Comparison"
+
+msgid "block_grid"
+msgstr "Product Grid"
+
+msgid "block_search"
+msgstr "Product Search"
+
+msgid "bind_domain"
+msgstr "Bind Domain"
+
+msgid "queries"
+msgstr "Queries"
+
+msgid "options"
+msgstr "Options"
+
+msgid "Current Website"
+msgstr "Current Website"
+
+msgid "Unbind"
+msgstr "Unbind"
+
+msgid "The number of queries allowed per day"
+msgstr "The number of queries allowed per day"
+
+msgid "Day"
+msgstr "Day"
+
+msgid "Week"
+msgstr "Week"
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Year"
+msgstr "Year"
+
+msgid " times / "
+msgstr " times / "
+
+msgid "Unlimited"
+msgstr "Unlimited"

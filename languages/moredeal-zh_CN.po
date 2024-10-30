@@ -1,0 +1,945 @@
+# module_index
+msgid "Active"
+msgstr "已激活"
+
+msgid "Deprecated"
+msgstr "已废弃"
+
+msgid "New"
+msgstr "新建"
+
+msgid "Module Settings"
+msgstr "模块设置"
+
+msgid "Product modules"
+msgstr "商品模块"
+
+# module_settings
+msgid "Add new feed module"
+msgstr "添加新的模块"
+
+msgid "%s Settings"
+msgstr "%s 设置"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgid "WARNING:"
+msgstr "警告："
+
+msgid "This module cannot be activated!"
+msgstr "这个模块无法激活!"
+
+msgid "Please fix the following error(s):"
+msgstr "请修复以下错误："
+
+# product_index
+msgid "Scanning... Please wait..."
+msgstr "扫描中... 请等待..."
+
+msgid "Products"
+msgstr "商品列表"
+
+msgid "Update Products"
+msgstr "更新商品"
+
+msgid "Last Update: %s"
+msgstr "上次更新: % s"
+
+msgid "Search products"
+msgstr "查询"
+
+msgid "Product"
+msgstr "商品"
+
+msgid "Moredeal Settings"
+msgstr "Moredeal 设置"
+
+# AdminPlugin
+msgid "Settings"
+msgstr "设置"
+
+msgid "Setting"
+msgstr "设置"
+
+msgid "Are you sure?"
+msgstr "是否确定？"
+
+# GeneralConfig
+msgid "General settings"
+msgstr "常规设置"
+
+msgid "Website language"
+msgstr "语言"
+
+msgid "The frontend language."
+msgstr "前端界面语言。"
+
+msgid "Post Types"
+msgstr "文章类型"
+
+msgid "What post types do you want to use for Moredeal?"
+msgstr "您想要在 Moredeal 中使用哪些文章类型？"
+
+msgid "Stock status"
+msgstr "库存状态"
+
+msgid "How to deal with stock status for product"
+msgstr "如何处理商品的库存状态"
+
+msgid "Show stock status"
+msgstr "显示库存状态"
+
+msgid "Hide stock status"
+msgstr "隐藏库存状态"
+
+msgid "Show OutOfStock status only"
+msgstr "仅显示无库存状态"
+
+msgid "Show InStock status only"
+msgstr "仅显示有库存状态"
+
+msgid "Out of Stock products"
+msgstr "无库存商品"
+
+msgid "How to deal with Out of Stock products."
+msgstr "如何处理无库存商品。"
+
+msgid "Do nothing"
+msgstr "不做任何处理"
+
+msgid "Hide price"
+msgstr "隐藏商品价格"
+
+msgid "Hide product"
+msgstr "隐藏商品"
+
+msgid "Frontend"
+msgstr "前端样式"
+
+msgid "Rel attribute for affiliate links"
+msgstr "链接的 rel 属性"
+
+msgid "Qualify"
+msgstr "查看"
+
+msgid " your affiliate links to Google."
+msgstr " Google 的 rel 属性。"
+
+msgid "Button color"
+msgstr "按钮颜色"
+
+msgid "Button color for default templates."
+msgstr "模板的按钮颜色。"
+
+msgid "Price color"
+msgstr "价格颜色"
+
+msgid "Price color for default templates."
+msgstr "模板的价格颜色。"
+
+msgid "Button text"
+msgstr "按钮文字"
+
+msgid "It will be used instead of %s."
+msgstr "输入的按钮文字将替换 “%s”。"
+
+msgid "Buy Now"
+msgstr "立即购买"
+
+msgid "You can use tags: %MERCHANT%, %DOMAIN%, %PRICE%, %STOCK_STATUS%."
+msgstr "您也可以使用标签: %MERCHANT%, %DOMAIN%, %PRICE%, %STOCK_STATUS%。"
+
+msgid "Amazon disclaimer"
+msgstr "亚马逊免责声明"
+
+msgid "Frontend texts"
+msgstr "模版文字"
+
+msgid "template i18n texts"
+msgstr "自定义模版国际化消息。"
+
+msgid "Merchants"
+msgstr "商家"
+
+msgid "Merchant settings"
+msgstr "商家设置"
+
+msgid "Domain name"
+msgstr "域名"
+
+msgid "Logo URL"
+msgstr "图标地址"
+
+msgid "Shop info"
+msgstr "店铺信息"
+
+msgid "Translated string"
+msgstr "翻译文字"
+
+msgid "Debugger"
+msgstr "调试"
+
+msgid "Seastar Api Host"
+msgstr "Seastar 接口地址"
+
+msgid "Seastar Api Url To Use"
+msgstr "调试使用 Seastar 接口地址"
+
+# ModuleController
+msgid "Modules"
+msgstr "模块"
+
+# ProductController
+msgid "%s ago"
+msgstr "%s 前"
+
+# ProductTable
+msgid "Module"
+msgstr "模块"
+
+msgid "Filter"
+msgstr "过滤"
+
+msgid "Filter by module"
+msgstr "根据模块过滤"
+
+msgid "Filter by Stock"
+msgstr "根据库存过滤"
+
+msgid "Amazon Module"
+msgstr "Amazon 模块设置"
+
+msgid "All"
+msgstr "所有"
+
+msgid "no title"
+msgstr "无标题"
+
+msgid "Post ID: %d"
+msgstr "文章 ID: %d"
+
+msgid "View"
+msgstr "查看文章"
+
+msgid "Edit"
+msgstr "编辑文章"
+
+msgid "Go to"
+msgstr "查看商品"
+
+msgid "In stock"
+msgstr "有库存"
+
+msgid "Out of stock"
+msgstr "无库存"
+
+msgid "inactive"
+msgstr "未激活"
+
+# AffiliateParserModuleConfig
+msgid "Price update"
+msgstr "价格更新"
+
+msgid "Time in seconds for updating prices, availability, etc. 0 - never update"
+msgstr "更新价格、库存等信息的时间间隔，单位为秒。0 表示不更新。"
+
+msgid "Product update mode, You can chose update by Page view or Cron"
+msgstr "商品更新模式，您可以选择页面访问时更新或者使用 Cron 计划任务更新。"
+
+msgid "Update mode"
+msgstr "更新模式"
+
+msgid "Page view"
+msgstr "页面更新"
+
+msgid "Cron"
+msgstr "定时更新"
+
+msgid "Page view + Cron"
+msgstr "页面更新 + 定时更新"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "settings"
+msgstr "设置"
+
+# ParserModuleConfig
+msgid "Enable module"
+msgstr "启用"
+
+msgid "Could not activate."
+msgstr "无法激活。"
+
+msgid "Priority"
+msgstr "优先级"
+
+msgid "Priority sets order of modules in post. 0 - is the most highest priority."
+msgstr "优先级设置模块在文章中的顺序。0 表示最高优先级。"
+
+msgid "Also it applied to price sorting."
+msgstr "同时也应用于价格排序。"
+
+msgid "As an Amazon associate I earn from qualifying purchases."
+msgstr "作为亚马逊的合作伙伴，可以从亚马逊的销售中获得佣金。"
+
+msgid "Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product."
+msgstr "产品价格和可用性在指示的日期/时间是准确的，并且可能会发生变化。购买时在亚马逊上显示的任何价格和可用性信息将适用于购买此产品。"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Stock"
+msgstr "库存"
+
+msgid "Price"
+msgstr "价格"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Default Associate Tag"
+msgstr "默认 Associate Tag"
+
+msgid "An alphanumeric token that uniquely identifies you as an Associate. To obtain an Associate Tag, refer to "
+msgstr "唯一标识您的 Associate 的字母数字标记。要获取 Associate Tag，请参阅 "
+
+msgid "Becoming an Associate"
+msgstr "Associate"
+
+msgid "Default locale"
+msgstr "默认语言"
+
+msgid "The branch/locale of Amazon. Each branch requires a separate registration in certain affiliate program."
+msgstr "亚马逊的分支/语言。每个分支都需要在某些合作伙伴计划中单独注册。"
+
+msgid "The Local can not be empty."
+msgstr "“语言”不能为空。"
+
+msgid "Associate Tag for %s locale"
+msgstr "%s Associate Tag"
+
+msgid "Type here your tracking ID for this %s Associate Tag"
+msgstr "在此处输入此 %s Associate Tag 的跟踪 ID"
+
+msgid "Adds products from Amazon."
+msgstr "添加亚马逊的商品。"
+
+msgid "Bids:"
+msgstr "出价："
+
+msgid "Item condition:"
+msgstr "项目条件:"
+
+msgid "Time left:"
+msgstr "剩余时间:"
+
+msgid "Ended:"
+msgstr "结束:"
+
+msgid "EEK:"
+msgstr "EEK:"
+
+msgid "Customer reviews"
+msgstr "客户评论"
+
+msgid "User reviews"
+msgstr "用户评论"
+
+msgid "View all reviews"
+msgstr "查看所有评论"
+
+msgid "Free shipping"
+msgstr "免费送货"
+
+msgid "Specifications"
+msgstr "规格"
+
+msgid "Features"
+msgstr "特点"
+
+msgid "Last updated on %s"
+msgstr "最后更新于 %s"
+
+msgid "as of %s"
+msgstr "截至 %s"
+
+msgid "Plus %s Cash Back"
+msgstr "加 %s 现金回报"
+
+msgid "Last Update"
+msgstr "最后更新"
+
+msgid "Go Pro"
+msgstr "升级为专业版"
+
+msgid "block_item"
+msgstr "商品卡片"
+
+msgid "block_offers_list"
+msgstr "价格排序列表"
+
+msgid "block_top_listing"
+msgstr "商品排行榜"
+
+msgid "Moredeal Products"
+msgstr "Moredeal 商品列表"
+
+msgid "Moredeal Module Settings"
+msgstr "Moredeal 模块设置"
+
+msgid "Moredeal Pro License"
+msgstr "Moredeal 专业版授权"
+
+msgid "License"
+msgstr "授权"
+
+msgid "Activate license"
+msgstr "激活授权"
+
+msgid "License key"
+msgstr "授权码"
+
+msgid "Please enter your license key. You can find your key on the %s."
+msgstr "请输入您的授权码，您可以在 %s 中获取授权码。"
+
+msgid "The License key can not be empty."
+msgstr "授权码不能为空。"
+
+msgid "Invalid License Key, Please check your License Key."
+msgstr "无效的授权码，请检查您的授权码。"
+
+msgid "License key is not accepted. Make sure that you use actual key."
+msgstr "授权码不被接受，请确保您使用的是有效的授权码。"
+
+msgid "If you have correct key, but it is not accepted, this means that your server blocks external connections or there is any other reason that your server does not allow to connect to mdc.ai site."
+msgstr "如果您使用的是正确的授权码，但是仍然无法激活，请检查您的服务器是否阻止了外部连接，或者其他原因导致您的服务器无法连接到 moredeal.us 网站。"
+
+msgid "Please, write about this to your hosting provider."
+msgstr "请联系您的服务商解决此问题。"
+
+msgid "If you need our help, you can view %s."
+msgstr "如果您需要我们的帮助，您可以查看 %s。"
+
+msgid "License key is not accepted. Make sure that you use actual key. License expire time has unknown problem, Please, write about this to your hosting provider."
+msgstr "授权码不正确，请确认您使用的是正确的授权码。授权过期时间存在未知问题，请联系您的服务商解决此问题。"
+
+msgid "Deactivate license"
+msgstr "取消授权"
+
+msgid "You can transfer your license to a new domain."
+msgstr "您可以将授权转移到新的域名。"
+
+msgid "After deactivating license, you will cant not continue use Moredeal Pro on your current domain. But you can use Moredeal on your current domain."
+msgstr "取消授权后，您将无法在当前域名上继续使用 Moredeal 专业版，但是您可以在当前域名上继续使用 Moredeal 免费版。"
+
+msgid "title.search"
+msgstr "搜索"
+
+msgid "title.reset"
+msgstr "重置"
+
+msgid "title.tips"
+msgstr "请输入产品关键词，ASIN，产品描述关键词搜索产品"
+
+msgid "title.exclude"
+msgstr "请输入关键词"
+
+msgid "title.category"
+msgstr "请选择产品类目、支持模糊搜索"
+
+msgid "goods.title"
+msgstr "请输入产品标题"
+
+msgid "goods.name"
+msgstr "请输入卖家名称"
+
+msgid "goods.source"
+msgstr "请输入来源"
+
+msgid "goods.price"
+msgstr "请输入现价"
+
+msgid "goods.unit"
+msgstr "请输入单位"
+
+msgid "goods.mark"
+msgstr "请输入描述"
+
+msgid "table.product"
+msgstr "产品信息"
+
+msgid "table.globalScore"
+msgstr "综合指标"
+
+msgid "table.price"
+msgstr "价格"
+
+msgid "table.salesCount"
+msgstr "月销量"
+
+msgid "table.sales"
+msgstr "月销额"
+
+msgid "table.currentBsr"
+msgstr "当前BSR排名"
+
+msgid "table.commentCount"
+msgstr "评论数"
+
+msgid "table.star"
+msgstr "评分"
+
+msgid "table.qa"
+msgstr "qa数"
+
+msgid "table.volume"
+msgstr "重量"
+
+msgid "table.firstDate"
+msgstr "入库时间"
+
+msgid "table.changeTime"
+msgstr "刷新时间"
+
+msgid "tip.product"
+msgstr "产品信息"
+
+msgid "tip.globalScore"
+msgstr "商品综合指标"
+
+msgid "tip.price"
+msgstr "最新价格"
+
+msgid "tip.salesCount"
+msgstr "指父ASIN近30天的销量"
+
+msgid "tip.sales"
+msgstr "指父ASIN近30天的销售额"
+
+msgid "tip.currentBsr"
+msgstr "上行：该产品所属大类及排名<br>下行：该产品所属小类及排名<br> 该ASIN在数据抓取时的BSR排名 <br>数派数据每日更新排序以BSR大类排名从高到低、从低到高排序"
+
+msgid "tip.commentCount"
+msgstr "上行：最新抓取评论数量<br> 下行：亚马逊最新抓取评分值排序 以评论数从高到低,从低到高排序"
+
+msgid "tip.star"
+msgstr "评分"
+
+msgid "tip.qa"
+msgstr "问答总数"
+
+msgid "tip.volume"
+msgstr "一行：产品的净重，单位为“磅”，包括盎司等单位也全部转换为了“磅”<br> 二行：按照亚马逊标准尺寸进行分段对于中小卖家，选择小号标准尺寸过滤，可以帮您找到FBA费用少且盈利高的产品<br> 三行：该产品的体积：长 x 宽 x 高（英寸）,四行：该产品的尺寸, 排序以重量从高到低、从低到高排序<br> 数据真实来源于亚马逊listing页面，可能存在部分卖家上传尺寸重量数据失真现象"
+
+msgid "tip.firstDate"
+msgstr "入库时间"
+
+msgid "tip.changeTime"
+msgstr "刷新时间"
+
+msgid "selection.strategy"
+msgstr "请选择选品策略"
+
+msgid "selection.strategy.tip"
+msgstr "您可以选择一个选品策略来快速筛选出您想要的产品"
+
+msgid "selection.hotSearchKeyword"
+msgstr "请选择热搜关键词"
+
+msgid "selection.hotSearchKeyword.tip"
+msgstr "您可以选择一个热搜关键词来快速筛选出您想要的产品"
+
+msgid "selection.order"
+msgstr "请选择排序"
+
+msgid "other.hiddenCondition"
+msgstr "隐藏筛选条件"
+
+msgid "other.showCondition"
+msgstr "显示筛选条件"
+
+msgid "other.max"
+msgstr "最大值"
+
+msgid "other.min"
+msgstr "最小值"
+
+msgid "other.lineTip"
+msgstr "共 %s1 个活跃产品，此处展示 %s2 个结果"
+
+msgid "other.variant"
+msgstr "变体数"
+
+msgid "other.brand"
+msgstr "品牌"
+
+msgid "other.parentAsin"
+msgstr "父ASIN"
+
+msgid "other.categoryRank"
+msgstr "大类排名"
+
+msgid "other.subcategoryRank"
+msgstr "小类排名"
+
+msgid "other.copySuccess"
+msgstr "复制成功"
+
+msgid "user guide"
+msgstr "用户指南"
+
+msgid "unlimited"
+msgstr "不限"
+
+msgid "Text of Amazon Disclaimer"
+msgstr "您可以在此处输入亚马逊的免责声明"
+
+msgid "other.pasteOperation"
+msgstr "Ctrl+V直接添加商品到商品池"
+
+msgid "other.insertSuccessful"
+msgstr "插入成功"
+
+msgid "other.theProductAlreadyExists"
+msgstr "已有该商品"
+
+msgid "other.insertFailed"
+msgstr "插入失败"
+
+msgid "other.systemError"
+msgstr "系统错误"
+
+msgid "Templates"
+msgstr "模板"
+
+msgid "Product Card"
+msgstr "商品卡片"
+
+msgid "Order By Price"
+msgstr "价格排序"
+
+msgid "Top Listing"
+msgstr "排行榜"
+
+msgid "Card Feature"
+msgstr "特性卡片"
+
+msgid "Feature Number"
+msgstr "商品特性数量"
+
+msgid "The number of product feature to display, default show all feature"
+msgstr "显示商品特性的数量，默认显示全部特性"
+
+msgid "The number is must greater than or equal to 0"
+msgstr "数量必须大于或等于0"
+
+msgid "Product Comparison"
+msgstr "商品对比"
+
+msgid "Product Number"
+msgstr "商品数量"
+
+msgid "The number of items used for comparison, The product proficiency must be greater than or equal to 2 and less than or equal to 5"
+msgstr "用于对比的商品数量，商品数量必须大于或等于2且小于或等于5"
+
+msgid "The product proficiency must be greater than or equal to 2 and less than or equal to 5"
+msgstr "数量必须大于或等于2且小于或等于5"
+
+msgid "Product attribute display"
+msgstr "商品属性显示"
+
+msgid "The product attributes that need to be compared are displayed on the page."
+msgstr "需要对比的商品属性在页面上显示"
+
+msgid "Best Choice color"
+msgstr "最佳选择商品颜色"
+
+msgid "The best choice product column background color for default templates."
+msgstr "默认模板下最佳选择商品列的背景颜色"
+
+msgid "Best choice text"
+msgstr "最佳选择商品文本"
+
+msgid "The best choice product text"
+msgstr "最佳选择商品文本"
+
+msgid "Best price color"
+msgstr "最佳价格商品颜色"
+
+msgid "The best price product column background color for default templates."
+msgstr "默认模板下最佳价格商品列的背景颜色"
+
+msgid "Best price Text"
+msgstr "最佳价格商品文本"
+
+msgid "The best price product text"
+msgstr "最佳价格商品文本"
+
+msgid "Table head color"
+msgstr "表头颜色"
+
+msgid "Table head color for product grid"
+msgstr "商品网格表头颜色"
+
+msgid "The number of product tp display, The product proficiency must be greater than or equal to 3 and less than or equal to 6"
+msgstr "显示商品数量，商品数量必须大于或等于3且小于或等于6"
+
+msgid "The product proficiency must be greater than or equal to 3 and less than or equal to 6"
+msgstr "数量必须大于或等于3且小于或等于6"
+
+msgid "Product Grid"
+msgstr "商品网格"
+
+msgid "product header title of"
+msgstr "的商品头部标题"
+
+msgid "product header title tip of"
+msgstr "的商品头部标题提示"
+
+msgid "Preview"
+msgstr "预览图"
+
+msgid "Rating"
+msgstr "评分"
+
+msgid "Review"
+msgstr "评论"
+
+msgid "Monthly sales"
+msgstr "月销量"
+
+msgid "Prime Benefits"
+msgstr "亚马逊会员优惠"
+
+msgid "See Deal"
+msgstr "查看详情"
+
+msgid "First column Text"
+msgstr "第一列文本"
+
+msgid "Second column Text"
+msgstr "第二列文本"
+
+msgid "Third column Text"
+msgstr "第三列文本"
+
+msgid "Fourth column Text"
+msgstr "第四列文本"
+
+msgid "Fifth column Text"
+msgstr "第五列文本"
+
+msgid "Sixth column Text"
+msgstr "第六列文本"
+
+msgid "First column Tip"
+msgstr "第一列提示"
+
+msgid "Second column Tip"
+msgstr "第二列提示"
+
+msgid "Third column Tip"
+msgstr "第三列提示"
+
+msgid "Fourth column Tip"
+msgstr "第四列提示"
+
+msgid "Fifth column Tip"
+msgstr "第五列提示"
+
+msgid "Sixth column Tip"
+msgstr "第六列提示"
+
+msgid "block_card_feature"
+msgstr "特性卡片"
+
+msgid "block_comparison"
+msgstr "商品比较"
+
+msgid "block_grid"
+msgstr "商品网格"
+
+msgid "block_search"
+msgstr "商品搜索"
+
+msgid "Search Product"
+msgstr "商品搜索"
+
+msgid "Search template"
+msgstr "搜索渲染模板"
+
+msgid "The search products will be display in this template, you can enter default, offers_list, top_listing, item, card_feature"
+msgstr "搜索的商品会以哪一种模板进行渲染, 您可以输入 default, offers_list, top_listing, item, card_feature 之一来渲染搜索结果"
+
+msgid "Sort color"
+msgstr "排序颜色"
+
+msgid "The sort column background color for default templates."
+msgstr "默认模板下排序列的背景颜色"
+
+msgid "Sort text"
+msgstr "排序文本"
+
+msgid "Sort text for default templates."
+msgstr "默认模板下排序文本"
+
+msgid "Best Choice price color"
+msgstr "最佳选择商品价格颜色"
+
+msgid "Best Choice price color for default templates."
+msgstr "默认模板的最佳选择价格颜色。"
+
+msgid "Best price price color"
+msgstr "最佳价格商品价格颜色"
+
+msgid "Best price price color for default templates."
+msgstr "默认模板的最佳价格的价格显示颜色。"
+
+msgid "Active fail, place contact your administrator"
+msgstr "激活失败，请联系管理员"
+
+msgid "The License has no active, place contact your administrator"
+msgstr "许可证未激活，请联系管理员"
+
+msgid "You can use the advanced features of Moredeal"
+msgstr "您可以使用更多的高级功能"
+
+msgid "The License has expired, please obtain a new license key"
+msgstr "许可证已过期，请获取新的许可证"
+
+msgid "The License has disabled, place contact your administrator"
+msgstr "许可证已禁用，请联系管理员"
+
+msgid "This License code can be bind to %s websites"
+msgstr "此许可证可以绑定 %s 个网站"
+
+msgid ". Already bind websites: %s"
+msgstr "。已绑定 %s 个网站"
+
+msgid ". You can bind %s websites"
+msgstr "。您还可以绑定 %s 个网站"
+
+msgid ". You can not bind website, if you want bind other website, you can unbind already bind websites"
+msgstr "。您已经无法继续绑定新的网站，如果您想绑定其他网站，您可以先解绑已绑定的网站"
+
+msgid "This License code can be queried %s times a day"
+msgstr "此许可证每天可以查询商品 %s 次"
+
+msgid "Active at %s "
+msgstr "激活时间：%s"
+
+msgid "Expires at %s (%d days left)"
+msgstr "过期时间：%s（剩余 %d 天）"
+
+msgid "License status: "
+msgstr "许可证状态："
+
+msgid "NOACTIVE"
+msgstr "未激活"
+
+msgid "ACTIVE"
+msgstr "已激活"
+
+msgid "INACTIVE"
+msgstr "已过期"
+
+msgid "DISABLE"
+msgstr "已禁用"
+
+msgid "bind_domain"
+msgstr "已绑定域名"
+
+msgid "queries"
+msgstr "允许查询商品次数"
+
+msgid "options"
+msgstr "操作"
+
+msgid "Current Website"
+msgstr "当前网站"
+
+msgid "Unbind"
+msgstr "解绑"
+
+msgid "The number of queries allowed per day"
+msgstr "每天允许查询商品的次数"
+
+msgid "Day"
+msgstr "天"
+
+msgid "Week"
+msgstr "周"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Year"
+msgstr "年"
+
+msgid " times / "
+msgstr " 次 / "
+
+msgid "Unlimited"
+msgstr "不限"
+
+msgid "Search Condition Type Display"
+msgstr "搜索条件类型显示"
+
+msgid "The search condition Type will be display in this template"
+msgstr "搜索条件会展示那些搜索类型，如：热搜词、选品策略、选品条件"
+
+msgid "Hot Keywords"
+msgstr "热搜词"
+
+msgid "Selection Strategy"
+msgstr "选品策略"
+
+msgid "Selection Conditions"
+msgstr "选品条件"
+
+msgid "Search Page"
+msgstr "搜索页"
+
+msgid "The template click more button will be jump this page"
+msgstr "点击更多按钮后跳转的页面"
+
+msgid "HotKeywords"
+msgstr "热搜词"
+
+msgid "The First Hot Keyword"
+msgstr "热搜词 1"
+
+msgid "The Second Hot Keyword"
+msgstr "热搜词 2"
+
+msgid "The Third Hot Keyword"
+msgstr "热搜词 3"
+
+msgid "The Fourth Hot Keyword"
+msgstr "热搜词 4"
+
+msgid "The Fifth Hot Keyword"
+msgstr "热搜词 5"
+
+msgid "The Sixth Hot Keyword"
+msgstr "热搜词 6"
+
+msgid "The Seventh Hot Keyword"
+msgstr "热搜词 7"
+
+msgid "The Eighth Hot Keyword"
+msgstr "热搜词 8"
+
+msgid "The Ninth Hot Keyword"
+msgstr "热搜词 9"
+
+msgid "The Tenth Hot Keyword"
+msgstr "热搜词 10"
+
+msgid "Please enter the hot keyword, it will be show when search product, you can enter text like 'watch' or 'watch,823', 'watch' is the hot keywords, '823' is the category id. You can get category id from "
+msgstr "请输入热搜词，它将会在搜索商品时展示，您可以输入类似 'watch' 或 'watch,823'，'watch' 是热搜词，'823' 是分类ID。您可以从 "
+
+msgid "get the category id"
+msgstr "获取分类ID"

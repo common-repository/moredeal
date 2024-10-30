@@ -1,0 +1,9 @@
+=== Moredeal ===
+
+== Archived Changelog Entries ==
+This file contains older changelog entries, so we can keep the size of the standard WordPress readme.txt file reasonable.
+
+= 1.0.0 =
+*Release Date - 2022-12-01*
+
+* Initial release.

@@ -1,0 +1,219 @@
+
+.groupList{
+    display:inline-block;
+    margin-left:5px;
+}
+.el-form-item .el-checkbox.is-bordered.el-checkbox--small{
+    padding: 3px 0 0 0;
+    height: 25px;
+}
+.el-radio--small.is-bordered{
+    padding: 5px 0 0 0;
+    height: 25px;
+}
+.subtitle{
+    margin: 0px 0 5px 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: DIN,PingFangSC-Medium,PingFang SC;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    background: #f5f7fa;
+}
+.produce{
+    width: 150px;
+    height: 54px;
+    line-height: 18px;
+    cursor:pointer;
+    font-size: 12px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.produce:hover {
+    color:#1890ff
+}
+.weignCen{
+    text-align: center;
+    font-weight: bold;
+}
+.text{
+    text-align: center;
+}
+.el-form-item .el-checkbox{
+    border:none;
+    margin-right: 1px;
+}
+.el-form-item .el-checkbox.is-bordered{
+    border:none;
+}
+.el-radio.is-bordered{
+    border:none;
+    margin-right: 1px;
+}
+.el-form-item .el-checkbox.is-bordered.is-checked{
+    background: #1890ff;
+}
+.el-radio.is-bordered.is-checked{
+    background: #1890ff;
+}
+.el-form-item .el-checkbox__input{
+    display:none
+}
+.el-radio__input.is-checked + .el-radio__label{
+    color: #fff;
+    padding: 0 5px;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #fff;
+    padding: 0 5px;
+}
+.el-form-item--small.el-form-item{
+    margin-bottom:5px
+}
+.el-input input[readonly]{
+    background: none;
+}
+.hiddenUp{
+    height: 39px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    line-height:39px;
+    cursor: pointer;
+}
+.upText{
+    font-size: 14px;
+    color: #2396fa;
+}
+.upIcon{
+    font-size: 12px;
+    margin-left: 5px;
+    color:#a5aebf
+}
+.el-radio__input{
+    display:none
+}
+.el-table .el-table__header thead tr :nth-child(7) >.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.templates .el-table .el-table__header thead tr :nth-child(6) >.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radioList{
+    display:inline;
+    margin-right:10px;
+}
+.radioList .groupList:first-child{
+    width:65px !important
+}
+.numIpt{
+    min-width:274px;
+    min-height: 22px;
+    display:inline-block;
+}
+.el-badge__content{
+    top: 8px;
+}
+
+.el-table .disabled-row{
+
+    background: red !important;
+
+}
+.select{
+    display: inline-block;
+    width: 300px;
+}
+.select input {
+    background:#fff;
+}
+.sorting .el-input input {
+    background:#fff;
+}
+.el-input.is-disabled .el-input__inner{
+    border: 1px solid #8c8f94;
+    cursor: pointer;
+    background: #f0f0f1;
+    color: #2c3338;
+}
+.vue-treeselect input[type=text]{
+    border: none !important;
+    box-shadow: none;
+}
+.el-tabs__item {
+    padding:0 10px 0 30px;
+}
+.el-tabs--top.el-tabs--card > .el-tabs__header .el-tabs__item:last-child{
+    padding-right:10px
+}
+.el-table th.el-table__cell{
+    background: #f8f8f9;
+}
+.el-image img{
+    cursor:zoom-in !important;
+}
+.el-tabs--border-card>.el-tabs__content{
+    padding: 0;
+}
+.moredeal-container sup{
+    line-height: normal;
+}
+.select_puduct .el-form-item__content{
+    margin-left: 0 !important;
+}
+.vue-treeselect__control{
+    height: 30px;
+    border: 1px solid #8c8f94;
+}
+.vue-treeselect__placeholder, .vue-treeselect__single-value{
+    line-height: 30px !important;
+}
+.vue-treeselect input[type=text]{
+    box-shadow: none !important;
+    display: block;
+    height: 100%;
+}
+.temSelect{
+    width: 500px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.temSelect .vue-treeselect__control{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.templates form label{
+    font-weight: 500;
+    color: #606266;
+    font-size: 14px;
+}
+.radioStyle{
+    margin-left: 165px;
+    display: block !important;
+}
+.labelStyle{
+    float: left;
+    width: 150px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    color:#606266
+}
